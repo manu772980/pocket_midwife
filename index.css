@@ -1,0 +1,26 @@
+ul {
+  list-style-type: none;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  padding: 14px 16px;
+}
+
+#content1 {
+  display: block;
+  color: black;
+  position: relative;
+  border: solid
+}
+#home_menu {
+  display: block;
+  color: black;
+  position: relative;
+}
