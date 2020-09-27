@@ -9,8 +9,12 @@ li {
 
 li a {
   display: block;
-  color: black;
+  color: aliceblue;
   padding: 14px 16px;
+}
+
+img {
+  width: 100%;
 }
 
 #content1 {
@@ -23,4 +27,114 @@ li a {
   display: block;
   color: black;
   position: relative;
+}
+
+.navbar {
+  position: relative;
+}
+
+
+/*
+flip card
+*/
+.card-flip > div {
+  backface-visibility: hidden;
+  transition: transform 300ms;
+  transition-timing-function: linear;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  display: flex;
+}
+
+.card-front {
+  transform: rotateY(0deg);
+}
+
+.card-back {
+  transform: rotateY(180deg);
+  position: absolute;
+  top: 0;
+}
+
+.card-flip:hover .card-front {
+  transform: rotateY(-180deg);
+}
+  
+.card-flip:hover .card-back {
+  transform: rotateY(0deg);
+}
+
+.highlight {
+  opacity:.5;
+    border-color:#444;
+}
+.img-thumbnail {
+  marin-bottom:4px;
+}
+
+/* css flexbox to fill the height of content panel */
+.flex {
+  display: flex;
+    display: -webkit-flex;
+    flex-grow:1;
+}
+
+.flex-col,.panel {
+    display: flex;
+    display: -webkit-flex;
+    flex: 1 100%;
+  flex-flow: column wrap;
+    margin-bottom:0;
+}
+
+.flex-grow,.panel-body {
+  display: flex;
+    -webkit-flex: 2;
+    flex: 2;
+}
+
+.col-md-4 {
+  padding-top: 1%;
+}
+
+body { 
+    animation: fadein 2s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+
+} 
+  
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
 }
