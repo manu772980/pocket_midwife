@@ -1,0 +1,7 @@
+//security architect
+function checkCharacter(str){
+	if(/^[a-zA-Z0-9- ]*$/.test(str) == false) {
+    	console.warn('Your search string contains illegal characters.');
+    	return false;
+	}
+}
