@@ -7,40 +7,143 @@
   <script src="bootstrap/js/bootstrap.min.js"></script>
   <script src="index.js"></script>
 </head>
-<body style="height:1500px">
+<body style="background: #978fdc;">
+<div id=logo_section>
+  <img class="img-fluid" src="images/web page header.jpg" alt="Card image cap" data-wow-delay="0.3s">
+</div>
+<div id=navbar_section>
+  <nav class="navbar navbar-expand-sm" style="background: #402eab;">
+    <ul class="navbar-nav" id=nav-bar-menu>
 
-<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
-  <a class="navbar-brand" href="#">Logo</a>
-  <ul class="navbar-nav">
-    <li class="nav-item">
-      <a class="nav-link" href="#" onclick="clickFunction()">HOME</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">MY STORY</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">VLOG</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">STORE</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link" href="#">CONTACT</a>
-    </li>
-  </ul>
-  <! security architect -->
-  <form class="form-inline my-2 my-lg-0" id="nav_searchbar_form" autocomplete="off">
-      <input class="form-control mr-sm-2" id="nav_searchbar_inp" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" id="nav_searchbar_btn" type="button">Search</button>
-  </form>
-  <! security architect -->
-</nav>
+    </ul>
+    <! security architect -->
+    <form class="form-inline my-2 my-lg-0" id="nav_searchbar_form" autocomplete="off">
+        <input class="form-control mr-sm-2" id="nav_searchbar_inp" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" id="nav_searchbar_btn" type="button">Search</button>
+    </form>
+    <! security architect -->
+  </nav>
+</div>
 
-<div class="container-fluid" style="margin-top:80px">
+
+<!-- <div class="container-fluid" style="margin-top:80px">
   <h1>Navbar</h3>
   <p>This is a proof of concept of a fixed navigation bar</p>
   <h3>You can scroll the page to see the effect</h1>
-</div>
+</div> -->
+<div class="container">
+    <div class="row" id="grid1">
+      <div class="col-md-4">
+          <img class="card-img-top img-fluid mb-4" id="img1" src="images/Covercd.png" alt="Card image cap" data-wow-delay="0.3s">
+      </div>
+      <div class="col-md-8 content-grid-text">
+        <p>
+          Did you know that a lack of the right knowledge in pregnancy and can lead to poor Choices and Disappointing outcomes?
+        </p>
+        <p>
+          Imagine if you couldavoid making WRONG CHOICES and go Straight to feeling like a SUPERWOMAN, someone who could take control of her body and her birth and have an empowering and life changing birth.
+        </p>
+        <p>
+          A woman who instead of Fearing Birth, OVERCOMES ALL FEAR and achieves the birth she has always deep down believed was possible!
+        </p>
+        <a href="#" class="btn btn-primary image-1-2-class" onclick="prepForBirthClickFunction()">Buy Now!!!</a>
+      </div>
+    </div>
+    <div class="row" id="grid2">
+      <div class="col-md-8 content-grid-text">
+        <p>
+          I have searched far and wide for the information contained on these pages. I am convinced that the majority of disappointing birth outcomes are the result Of Lack Of knowledge, that ultimately leads to making poor choices! Sadly many women today fear birth, and do NOT receive good advice.
+        </p>
+        <p>
+          But what if I told you, it doesnt have to be that way! What if you were able to getthe RIGHT INFORMATION and have at your finger tips,the BEST TOOLS, that could help you achieve, NOT just and okay birth, But a GREAT BIRTH!
+        </p>
+        <p>
+          Would you like to have in your possession the tools to create the birth you truly desire?
+        </p>
+        <a href="#" class="btn btn-primary image-1-2-class" onclick="birthCompanionClickFunction()">Buy Now!!!</a>
+      </div>
+      <div class="col-md-4">
+          <img class="card-img-top img-fluid mb-4" id="img2" src="images/Cover3.png" alt="Card image cap" data-wow-delay="0.3s">
+      </div>
+    </div>
+    <div class="row" id="grid3">
+      <div class="col-md-4">
+          <img class="card-img-top img-fluid mb-4" id="img3" src="images/logo2.jpg" alt="Card image cap" data-wow-delay="0.3s">
+      </div>
+      <div class="col-md-8 content-grid-text">
+        <p>
+          I've been attending and educating women for more than 25 years. And what i have discovered is...
+        </p>
+        <p>
+          If women are given the right information, the right tools and the right support, they can achieve amazing results.
+        </p>
+        <p>
+          Having a baby is likely the most important and amazing achievement in a woman's life. This seemingly, "normal" event that occurs every day somewhere in the world, and that has been happening for thousands of years, inevitably brings some of the greatest challenges women face.
+        </p>
+        <p>
+          Despite how common having a baby is, it is still the most monumental time in a woman's life. It is an event, GOOD or BAD, that we as women never forget.
+        </p>
+        <p>
+          If your birth doesn't leave you feeling POWERFUL, and CONTENT, with how it unfolded, then something is terribly wrong!
+        </p>
+      </div>
+    </div>
+    <div class="row last-grid" id="grid4">
+      <div class="col-md-8 content-grid-text">
+        <p>
+          Good birth is about being in control Of your choices. My question for you is...
+        </p>
+        <h4>
+          Are you in control of your choices?
+        </h4>
+        <p>
+          I want to help you to make good choices. For that to happen, I need to get you thinking about your options.So, I interviewed three amazing women who collectively have attended over 1000 women in childbirth.
+        </p>
+        <p>
+          I ask them the question. What should women know..
+        </p>
+        <p>
+          And this video is their response to my question.
+        </p>
+        <p>
+          This video is yours for FREE!
+        </p>
+        <p>
+          Why am I doing that ?
+        </p>
+        <p>
+          Because I know that all it takes to change an outcomeis to open a woman's eye's towhat is possible.
+        </p>
+        <p>
+          I have experienced pain, and disappointment and ultimately bad birth outcomes.
+        </p>
+        <p>
+          I didnt know. what didn't know!
+        </p>
+        <p>
+          But when my eyes were open to all the possible options and choices that were mine to make.... Well... My life was changed forever. I want that for you!
+        </p>
+        <div class="image-4-input">
+          <h4>To make Secret Women's Business yours today absolutely free:</h4>
+          <br>
+          <div class ="image-4-input-box">
+            <div class="md-form">
+              <input type="text" id="form1" class="form-control" placeholder="Name">
+            </div>
+            <br>
+            <div class="md-form">
+              <input type="text" id="form1" class="form-control" placeholder="Email">
+            </div>
+            <br>
+          </div>
 
+          <a href="#" class="btn btn-primary image-1-2-class" onclick="secretWomenBusinessClickFunction()">Click Here!!!</a>
+        </div>
+      </div>
+      <div class="col-md-4">
+          <img class="card-img-top img-fluid mb-4" id="img4" src="images/Secret Womans Business.jpg" alt="Card image cap" data-wow-delay="0.3s">
+      </div>
+    </div>
+</div>
 </body>
 </html>

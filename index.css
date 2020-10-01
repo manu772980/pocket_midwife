@@ -1,3 +1,64 @@
+#img1 {
+  position: relative;
+  width: 90%;
+}
+
+#img2 {
+  position: relative;
+  width: 65%;
+  left: 30%;
+}
+
+#img3 {
+  position: relative;
+  width: 70%;
+}
+
+#img4 {
+  position: relative;
+  top: 10%;
+}
+
+#grid1 {
+  border-bottom: 1px;
+  border-bottom-color: #7069a2;
+  border-bottom-style: solid;
+}
+
+#grid2 {
+  border-bottom: 1px;
+  border-bottom-color: #7069a2;
+  border-bottom-style: solid;
+  padding-bottom: 2%;
+}
+
+#grid3 {
+  border-bottom: 1px;
+  border-bottom-color: #7069a2;
+  border-bottom-style: solid;
+  padding-bottom: 2%;
+}
+
+#grid4 {
+  border-bottom: 1px;
+  border-bottom-color: #7069a2;
+  border-bottom-style: solid;
+  padding-bottom: 2%;
+}
+
+.content-grid-text {
+  margin-top: 2%;
+  color: black;
+}
+
+.image-4-input-box {
+  width: 100%;
+}
+
+.last-grid {
+  margin-bottom: 2%;
+}
+
 ul {
   list-style-type: none;
   overflow: hidden;
@@ -96,6 +157,15 @@ flip card
 
 .col-md-4 {
   padding-top: 1%;
+}
+
+.content-grid-text {
+  margin-top: 2%;
+  color: black;
+}
+
+.image-4-input {
+  width: 60%;
 }
 
 body { 
